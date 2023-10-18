@@ -1,0 +1,257 @@
+body{
+    background-color: #1B1B1B;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    width: 1071px;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    height: 1169px;
+    
+  }
+  @media(max-width:800px){
+    body{
+        background-color: #1B1B1B;
+    }
+  }
+  .cabecalho{
+    margin-top: -1px;
+    display: flex;
+    position: fixed;
+    width: 1071px;
+    height: 150px;
+    background-color:#1B1B1B;
+  }
+  
+  .simbolo{
+    background-color: #38B6FF;
+    width: 53px;
+    height: 46px;
+    text-align: center;
+    padding: 19px 16px 14px 16px;
+    border-radius: 50%;
+    margin-top: 36px;
+    position: absolute;
+    margin-left: 54px;
+    color: white;
+    font-size: 30px;
+    border: 3px solid rgb(33, 77, 141);
+    transition: .5s;
+  }
+  .simbolo a{
+    text-decoration: none;
+    color: white;
+  }
+  .simbolo a:hover{
+    cursor: pointer;
+  }
+  .simbolo:hover{
+    scale: 1.3;
+
+  }
+  @media(max-width:800px){
+    .simbolo{
+        display: none;
+        color: black;
+        background-color: black;
+    }
+  }
+  .links{
+    background-color: white;
+    margin-left: 495px;
+    
+  }
+  .links ul{
+    display: flex;
+    height: 8px;
+    align-items: center;
+    position: absolute;
+    margin-right: 74px;
+    margin-top: 69px;
+  
+  }
+  @media(max-width:800px){
+    .links{
+        margin-left: 33px;
+    }
+  }
+  .links li{
+    list-style: none;
+  }
+  .links ul li a{
+    text-decoration-line: none;
+    padding: 0px 40px;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+  }
+  .links ul li a:hover{
+    cursor: pointer;
+    color: #5abff9;
+  }
+
+  .form{
+    margin: 300px;
+    margin-left: -226px;
+    height: 80px;
+  }
+  .contatos-form input{
+    width: 100%;
+    padding: 8px 8px;
+    margin: 8px 0px;
+  }
+  @media(max-width:800px){
+    .form{
+        margin-left: -3px;
+        
+      }
+  }
+  .contatos-form input[type=text]{
+    margin: auto;
+    height: 102px;
+    margin-right: -54px;
+
+    
+  }
+  label{
+    color:#38B6FF;
+    font-family: 'Roboto Mono', monospace;
+  }
+  button{
+    background-color: #38B6FF;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #38B6FF;
+    border-radius: 12px;
+    padding: 13px;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .icon{
+    
+    position: absolute;
+    display: flex;
+    margin-top: 800px;
+    width: 1070px;
+    justify-content: center;
+    gap: 190px;
+    height: 100px;
+    margin-bottom: 23px;
+
+  }
+  .icon i{
+    font-size: 30px;
+    background: #100f0f;
+    width: 80px;
+    height: 46px;
+    color: #38b6ff;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 50% 50%;
+    transition: .5s;
+    
+  }
+  .icon i:hover{
+    cursor: pointer;
+    scale: 1.3;
+  }
+  .iconsContatos{
+    display: flex;
+    margin-top: 872px;
+    position: absolute;
+    width: 1070px;
+    gap: 107px;
+    margin-left: 18px;
+  }
+  
+  .icon-contato h1{
+    color: white;
+    font-size: 20px;
+    margin-top: 23px;
+    text-align: center;
+    
+  }
+  .icon-contato p{
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    
+  }
+  .tel{
+    margin-left: -19px;
+  }
+  .email{
+    margin-left: -3px;
+  }
+  .git{
+    margin-left: 16px;
+  }
+  .linkedin{
+    margin-left: 20px;
+  }
+  .git a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .linkedin a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .linkedin a:hover{
+    cursor: pointer;
+  }
+  .git a:hover{
+    cursor: pointer;
+  }
+  @media(max-width:800px){
+    .icon{
+      display: inline-flex;
+      margin-left: -223px;
+      gap: 75px;
+      margin-top: 757px;
+      
+    }
+    .iconsContatos{
+      display: inline-flex;
+      gap: 39px;
+      margin-top: 815px;
+    }
+    .iconsContatos h1{
+      font-size: 14px;
+      font-family: 'Roboto Mono', monospace;
+
+    }
+    .iconsContatos p{
+      font-size: 10px;
+      font-family: 'Roboto Mono', monospace;
+    }
+    .iconsContatos a{
+      font-size: 12px;
+      font-family: 'Roboto Mono', monospace;
+    }
+    .tel{
+      margin-left: 13px;
+    }
+    .email{
+      margin-left: -3px;
+    }
+    .git {
+      margin-left: 16px;
+    }
+    .linkedin {
+      margin-left: 36px;
+    }
+  }
