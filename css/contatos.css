@@ -369,6 +369,16 @@ body{
       width: 120px;
 
     }
+    .tel a{
+      font-size: 12px;
+      font-family: 'Roboto Mono', monospace;
+      color: white;
+      text-decoration-line: none;
+      text-decoration: none;
+      outline: none;
+      width: 120px;
+
+    }
     .linkedin{
       text-align-last: left;
       margin-left: 113px;
