@@ -105,8 +105,10 @@ main{
         width: 320px;
     }
     .cabecalho{
-        width: 320px;
+        width: 375px;
         height: 92px;
+        left: 0px;
+        
     }
     .links{
         margin-left: -12px;
@@ -128,6 +130,10 @@ main{
 @media(max-width:500px){
     .links{
         height: 135px;
+    }
+    ul{
+        margin-left: -45px;
+        padding-left: 80px;
     }
     .links ul li a{
         padding: 0px 15px;
@@ -181,7 +187,7 @@ main{
     .texto{
         height: 300px;
         margin-top: 60px;
-        margin-left: 3px;
+        margin-left: 0px;
         width: 320px;
     
     }
@@ -210,7 +216,7 @@ main{
         font-family: 'Roboto Mono', monospace;
         line-height: 40px;
         margin-right: 10px;
-        width: 340px;
+        width: 310px;
         margin-left: -6px;
     }
 }
@@ -280,11 +286,12 @@ aside{
 @media(max-width:500px){
     
     aside{
-        width: 400px;
+        width: 305px;
         margin-bottom: 350px;
+        margin-left: 5px;
     }
     .sobre{
-        width: 350px;
+        width: 305px;
         margin: 197px 50px 50px -2px;
     }
 }
@@ -306,11 +313,12 @@ aside{
         margin-left: -31px;
     }
     .sobre p{
-        width: 320px;
+        width: 305px;
         margin-left: 6px;
+        margin-right: 6px;
         font-size: 14px;
         line-height: 26px;
-        padding: 0px 20px 0px 4px;
+        padding: 0px 20px 0px 20px;
         margin-bottom: 41px;
     }
 }

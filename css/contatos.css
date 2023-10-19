@@ -17,6 +17,13 @@ body{
         background-color: #1B1B1B;
     }
   }
+  @media(max-width:500px){
+    body{
+        background-color: #1B1B1B;
+        width: 320px;
+        height: 1258px;
+    }
+}
   .cabecalho{
     margin-top: -1px;
     display: flex;
@@ -110,6 +117,35 @@ body{
         
       }
   }
+  @media(max-width:500px){
+    main{
+        width: 320px;
+    }
+    .cabecalho{
+        width: 375px;
+        height: 92px;
+        left: 0px;
+        
+    }
+    .links{
+        margin-left: -12px;
+        margin-top: -12px;
+    }
+}
+  @media(max-width:500px){
+    .links{
+        height: 135px;
+    }
+    ul{
+        margin-left: -25px;
+        padding-left: 80px;
+    }
+    .links ul li a{
+        padding: 0px 15px;
+        font-size: 15px;
+        
+    }
+}
   .contatos-form input[type=text]{
     margin: auto;
     height: 102px;
@@ -135,14 +171,15 @@ body{
   }
   .icon{
     
-    position: absolute;
+    position: fixed;
     display: flex;
-    margin-top: 800px;
+    margin-top: 700px;
     width: 1070px;
     justify-content: center;
     gap: 190px;
     height: 100px;
     margin-bottom: 23px;
+    
 
   }
   .icon i{
@@ -163,11 +200,12 @@ body{
   }
   .iconsContatos{
     display: flex;
-    margin-top: 872px;
-    position: absolute;
+    margin-top: 763px;
+    position: fixed;
     width: 1070px;
     gap: 107px;
     margin-left: 18px;
+    
   }
   
   .icon-contato h1{
@@ -182,7 +220,7 @@ body{
     font-size: 18px;
     margin-top: 10px;
     text-align: center;
-    
+  
   }
   .tel{
     margin-left: -19px;
@@ -255,3 +293,86 @@ body{
       margin-left: 36px;
     }
   }
+  @media(max-width:500px){
+    .form{
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 180px;
+    }
+    .contatos-form{
+      width: 300px;
+      margin-left: 40px;
+      margin-top: -41px;
+    }
+    .contatos-form input{
+      width: 300px;
+      
+    }
+    #message{
+      margin-top: 8px;
+    }
+    label{
+      font-size: 13px;
+    }
+    button{
+      font-size: 12px;
+      padding: 6px;
+      height: 30px;
+      width: 80px;
+    }
+    .icon{
+      margin-top: 465px;
+      width: 320px;
+      margin-left: 0px;
+      display: block;
+      position: fixed;
+      
+    }
+    .iconsContatos{
+      margin-top: 459px;
+      display: block;
+      width: 82px;
+      margin-left: 0px;
+      height: 305px;
+      position: fixed;
+    }
+    .email{
+      text-align-last: justify;
+      margin-left: 113px;
+    }
+    .email h1{
+      font-size: 13px;
+      width: 100px;
+    }
+    .tel{
+      text-align-last: left;
+      margin-left: 113px;
+    }
+    .tel h1{
+      font-size: 13px;
+      width: 120px;
+    }
+    .tel p{
+      font-size: 10px;
+      font-family: 'Roboto Mono', monospace;
+      color: white;
+      text-decoration-line: none;
+      outline: none;
+      width: 120px;
+    }
+    .linkedin{
+      text-align-last: left;
+      margin-left: 113px;
+    }
+    .linkedin h1{
+      font-size: 13px;
+    }
+    .git{
+      text-align-last: left;
+      margin-left: 113px;
+    }
+    .git h1{
+      font-size: 13px;
+    }
+  }
+      

@@ -26,7 +26,13 @@ body{
   height: 150px;
   background-color:#1B1B1B;
 }
-
+@media(max-width:500px){
+  body{
+      background-color: #1B1B1B;
+      width: 320px;
+      height: 1258px;
+  }
+}
 .simbolo{
   background-color: #38B6FF;
   width: 53px;
@@ -91,6 +97,35 @@ body{
 .links ul li a:hover{
   cursor: pointer;
   color: #5abff9;
+}
+@media(max-width:500px){
+  main{
+      width: 320px;
+  }
+  .cabecalho{
+      width: 375px;
+      height: 92px;
+      left: 0px;
+      
+  }
+  .links{
+      margin-left: -12px;
+      margin-top: -12px;
+  }
+}
+@media(max-width:500px){
+  .links{
+      height: 135px;
+  }
+  ul{
+      margin-left: -30px;
+      padding-left: 80px;
+  }
+  .links ul li a{
+      padding: 0px 15px;
+      font-size: 15px;
+      
+  }
 }
 
 .website {
@@ -239,4 +274,16 @@ body{
   font-family: 'Roboto Mono', monospace;
   text-decoration: none;
   outline: none;
+}
+@media(max-width:500px){
+  .website{
+    width: 370px;
+    margin-right: 0px;
+  }
+  .posts{
+      width: 298px;
+      margin-left: 6px;
+      margin-right: 0px;
+  }
+  
 }
