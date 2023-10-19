@@ -301,7 +301,7 @@ body{
     }
     .contatos-form{
       width: 300px;
-      margin-left: 40px;
+      margin-left: 32px;
       margin-top: -41px;
     }
     .contatos-form input{
@@ -328,6 +328,9 @@ body{
       position: fixed;
       
     }
+    .icon i{
+      background: none;
+    }
     .iconsContatos{
       margin-top: 459px;
       display: block;
@@ -335,6 +338,7 @@ body{
       margin-left: 0px;
       height: 305px;
       position: fixed;
+      
     }
     .email{
       text-align-last: justify;
@@ -343,6 +347,9 @@ body{
     .email h1{
       font-size: 13px;
       width: 100px;
+    }
+    .email p{
+      font-size: 12px;
     }
     .tel{
       text-align-last: left;
@@ -353,12 +360,14 @@ body{
       width: 120px;
     }
     .tel p{
-      font-size: 10px;
+      font-size: 12px;
       font-family: 'Roboto Mono', monospace;
       color: white;
       text-decoration-line: none;
+      text-decoration: none;
       outline: none;
       width: 120px;
+
     }
     .linkedin{
       text-align-last: left;
